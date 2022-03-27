@@ -10,7 +10,7 @@ body {
 /* HEADER */
 
 .header-container {
-    height: 100vh;
+    height: 50vh;
     width: 100vw;
     background-color: rgb(172, 168, 180);
     background-repeat: no-repeat;
@@ -231,6 +231,9 @@ a:hover {
     justify-content: center;
     align-items: center;
     position: relative;
+    
+
+
     
 }
 
