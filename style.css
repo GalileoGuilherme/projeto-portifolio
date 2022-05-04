@@ -10,9 +10,9 @@ body {
 /* HEADER */
 
 .header-container {
-    height: 50vh;
-    width: 100vw;
-    background-color: rgb(172, 168, 180);
+    height: 45vh;
+    width: 100%;
+    background-color: rgb(219, 219, 217);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -292,3 +292,130 @@ a:hover {
    align-items: center;
    justify-content: center;
 }
+
+
+
+/* Iphone 5 6 7(plus) x xr */
+
+@media screen and (max-width: 414px ) {
+    .header-container {
+        width: 100%;
+    }
+    
+    html {
+        width: 100vw;
+        height: 100vh;
+    }
+       
+    body {
+        width: 130vw;
+        background-color: aqua;
+    }
+    
+    h1 {
+        font-size: 21px;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        margin-top: 30px;
+        color: red;
+        
+        
+    }
+    
+    .header {
+        display: flex;
+        flex-direction: column;
+        padding: 1px;
+        justify-content: flex-start;
+        position: relative;
+        right: 3%;
+        top: -6%;   
+    
+    }
+    
+    .social-media a {
+        padding: 0.5rem 3rem;
+    }
+    
+    .checkbox {
+        left: 16rem;
+    }
+    
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        top: 2px;
+        align-items: center
+    }
+    
+    .card {
+        margin: -2rem 0 0 2rem;
+    }
+    
+    .card-text {
+        left: 60%;
+    }
+
+    .footer {
+        margin-bottom: 0%;
+    }
+
+}
+
+/* Iphone 5 6 7 */
+@media screen and (max-width: 375px ) {
+    .header-container {
+        width: 100%;
+    }
+    
+    
+    
+    body {
+        width: 100%;
+    }
+    
+    h1 {
+        font-size: 21px;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        margin-top: 30px;
+        color: yellow;
+        
+        
+    }
+    
+    .header {
+        display: flex;
+        flex-direction: column;
+        padding: 1px;
+        justify-content: flex-start;
+        position: relative;
+        right: 60%;
+        top: -6%;   
+    
+    }
+    
+    .social-media a {
+        padding: 0.5rem 3rem;
+    }
+    
+    .checkbox {
+        left: 16rem;
+    }
+    
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        top: 2px;
+        align-items: center
+    }
+    
+    .card {
+        margin: -2rem 0 0 2rem;
+    }
+    
+    .card-text {
+        left: 60%;
+    }
+    
+    }
