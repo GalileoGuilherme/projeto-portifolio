@@ -309,7 +309,7 @@ a:hover {
        
     body {
         width: 130vw;
-        background-color: aqua;
+        
     }
     
     h1 {
@@ -317,7 +317,7 @@ a:hover {
         text-transform: uppercase;
         letter-spacing: 4px;
         margin-top: 30px;
-        color: red;
+        
         
         
     }
@@ -379,7 +379,7 @@ a:hover {
         text-transform: uppercase;
         letter-spacing: 4px;
         margin-top: 30px;
-        color: yellow;
+        
         
         
     }
