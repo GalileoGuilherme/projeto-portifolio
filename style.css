@@ -12,7 +12,8 @@ body {
 .header-container {
     height: 45vh;
     width: 100%;
-    background-color: rgb(219, 219, 217);
+    /*background-color: rgb(219, 219, 217);*/
+    background-image: linear-gradient(rgb(99, 99, 99), rgb(221, 221, 217));
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
