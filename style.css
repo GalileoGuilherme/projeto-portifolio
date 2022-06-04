@@ -7,10 +7,11 @@ body {
     color: #1e1e2a;
 }
 
+
 /* HEADER */
 
 .header-container {
-    height: 45vh;
+    height: 35vh;
     width: 100%;
     /*background-color: rgb(219, 219, 217);*/
     background-image: linear-gradient(rgb(99, 99, 99), rgb(221, 221, 217));
@@ -36,6 +37,7 @@ h1 {
 h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
+    margin-top: -55px;
 }
 
 .social-media {
@@ -201,6 +203,8 @@ a:hover {
     justify-content: space-evenly;
     align-items: center;
     width: 90%;
+    margin-top: -87px;
+    margin-bottom: -44px;
 }
 
 .card {
