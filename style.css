@@ -73,8 +73,8 @@ a:hover {
     height: 100px;
     width: 100px;
     position: absolute;
-    right: 0;
-    top: 0;
+    right: 63px;
+    top: 32px;
     display: flex;
     justify-content: center;
     cursor: pointer;
@@ -196,6 +196,7 @@ a:hover {
     flex-direction: column;
     justify-content: space-evenly;
     margin: 3rem 0;
+    
 }
 
 .card-container {
@@ -205,6 +206,12 @@ a:hover {
     width: 90%;
     margin-top: -87px;
     margin-bottom: -44px;
+    
+}
+#frame-home{
+    margin-top: 53px;
+    padding-bottom: 0px;    
+    margin-right: -150px;
 }
 
 .card {
@@ -230,6 +237,8 @@ a:hover {
     width: 40%;
     letter-spacing: 1px;
     color: rgb(109, 109, 109);
+    margin-top: 55px;
+    margin-right: -39px;
 }
 
 .card-wrapper {
