@@ -314,7 +314,7 @@ a:hover {
 
 /* Iphone 5 6 7(plus) x xr */
 
-@media screen and (max-width: 414px ) {
+@media screen and (max-width: 700px ) {
     .header-container {
         width: 100%;
     }
@@ -333,10 +333,16 @@ a:hover {
         font-size: 21px;
         text-transform: uppercase;
         letter-spacing: 4px;
-        margin-top: 30px;
+        margin-top: 30px;   
         
         
-        
+    }
+    #frame-home{
+        display: none;
+    }
+    ._2XBDTIVigBJDybhZvL-hU3{
+        display: none;
+        background-color: yellow;
     }
     
     .header {
@@ -392,7 +398,7 @@ a:hover {
     }
     
     h1 {
-        font-size: 21px;
+        font-size: 15px;
         text-transform: uppercase;
         letter-spacing: 4px;
         margin-top: 30px;
@@ -400,6 +406,11 @@ a:hover {
         
         
     }
+    h2 {
+        font-size: xx-small;
+        margin-top: -47px;
+    }
+    
     
     .header {
         display: flex;
@@ -407,9 +418,12 @@ a:hover {
         padding: 1px;
         justify-content: flex-start;
         position: relative;
-        right: 60%;
+        right: 106%;
         top: -6%;   
     
+    }
+    .social-media{
+        margin-left: -12px;
     }
     
     .social-media a {
@@ -418,6 +432,8 @@ a:hover {
     
     .checkbox {
         left: 16rem;
+        margin-top: -61px;
+        margin-left: -36px;
     }
     
     .card-container {
@@ -428,11 +444,13 @@ a:hover {
     }
     
     .card {
-        margin: -2rem 0 0 2rem;
-    }
+        
+        margin-top: 52px;
+      }
     
     .card-text {
         left: 60%;
     }
     
     }
+
