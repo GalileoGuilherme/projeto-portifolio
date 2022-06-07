@@ -311,81 +311,6 @@ a:hover {
 }
 
 
-
-/* Iphone 5 6 7(plus) x xr */
-
-@media screen and (max-width: 700px ) {
-    .header-container {
-        width: 100%;
-    }
-    
-    html {
-        width: 100vw;
-        height: 100vh;
-    }
-       
-    body {
-        width: 130vw;
-        
-    }
-    
-    h1 {
-        font-size: 21px;
-        text-transform: uppercase;
-        letter-spacing: 4px;
-        margin-top: 30px;   
-        
-        
-    }
-    #frame-home{
-        display: none;
-    }
-    ._2XBDTIVigBJDybhZvL-hU3{
-        display: none;
-        background-color: yellow;
-    }
-    
-    .header {
-        display: flex;
-        flex-direction: column;
-        padding: 1px;
-        justify-content: flex-start;
-        position: relative;
-        right: 3%;
-        top: -6%;   
-    
-    }
-    
-    .social-media a {
-        padding: 0.5rem 3rem;
-    }
-    
-    .checkbox {
-        left: 17rem;
-    }
-    
-    .card-container {
-        display: flex;
-        flex-direction: column;
-        top: 2px;
-        align-items: center
-    }
-    
-    .card {
-        margin: -2rem 0 0 2rem;
-    }
-    
-    .card-text {
-        left: 60%;
-    }
-
-    .footer {
-        margin-top: 20%;
-    }
-
-}
-
-/* Iphone 5 6 7 */
 @media screen and (max-width: 375px ) {
     .header-container {
         width: 100%;
@@ -460,4 +385,84 @@ a:hover {
     }
     
     }
+/* Iphone 5 6 7(plus) x xr */
+
+@media (min-width: 376px) and (max-width: 767px) {
+    .header-container {
+        width: 100%;
+        height: 213px;
+    }
+    
+    html {
+        width: 100vw;
+        height: 100vh;
+    }
+       
+    body {
+        width: 130vw;
+        
+    }
+    
+    h1 {
+        font-size: 21px;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        margin-top: 30px;   
+        
+        
+    }
+    #frame-home{
+        display: none;
+    }
+    ._2XBDTIVigBJDybhZvL-hU3{
+        display: none;
+        background-color: yellow;
+    }
+    
+    .header {
+        display: flex;
+        flex-direction: column;
+        padding: 1px;
+        justify-content: flex-start;
+        position: relative;
+        right: 3%;
+        top: -6%;   
+    
+    }
+    
+    .social-media a {
+        padding: 0.5rem 3rem;
+    }
+    
+    .checkbox {
+        left: 19rem;
+        margin-top: -39px;
+    }
+    
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 6px;
+        align-items: center
+        
+    }
+    
+    .card {
+        margin: -2rem 0 0 2rem;
+    }
+    
+    .card-text {
+        left: 60%;
+    }
+
+    .footer {
+        margin-top: 20%;
+    }
+
+}
+
+
+
+
+   
 
