@@ -28,6 +28,125 @@ body {
     position: relative;
 }
 
+.stars{
+	width: 3px;
+	height: 3px;
+	border-radius: 50%;
+	box-shadow: 
+    50px 30px white,
+    100px 80px white,
+    80px 120px white,
+    300px 20px white,
+    250px 130px white,
+    200px 50px white,
+    150px 100px white,
+    320px 100px white,
+
+    100px 60px white,
+    200px 160px white,
+    160px 240px white,
+    600px 40px white,
+    500px 260px white,
+    400px 100px white,
+    300px 200px white,
+    640px 200px white;
+
+    animation: anim-stars 10s linear infinite;
+}
+
+.stars::after{
+    content: " ";
+    position: absolute;
+    top: 150px;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    box-shadow: 
+      50px 30px white,
+      100px 80px white,
+      80px 120px white,
+      300px 20px white,
+      250px 130px white,
+      200px 50px white,
+      150px 100px white,
+      320px 100px white,
+
+      100px 60px white,
+      200px 160px white,
+      160px 240px white,
+      600px 40px white,
+      500px 260px white,
+      400px 100px white,
+      300px 200px white,
+      480px 200px white;
+  }
+
+  .stars2{
+    position: relative;
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    box-shadow: 
+      15px 15px white,
+      125px 35px white,
+      50px 80px white,
+      10px 120px white,
+      275px 90px white,
+      230px 10px white,
+      120px 130px white,
+      300px 130px white,
+      220px 115px white,
+
+      30px 30px white,
+      250px 70px white,
+      100px 160px white,
+      20px 240px white,
+      550px 180px white,
+      460px 20px white,
+      480px 260px white,
+      600px 320px white,
+      440px 230px white;
+    animation: anim-stars 20s linear infinite;
+  }
+  
+  .stars2::after{
+    content: " ";
+    position: absolute;
+    top: 150px;
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    box-shadow: 
+      15px 15px white,
+      125px 35px white,
+      50px 80px white,
+      10px 120px white,
+      275px 90px white,
+      230px 10px white,
+      120px 130px white,
+      300px 130px white,
+      220px 115px white,
+
+      30px 30px white,
+      250px 70px white,
+      100px 160px white,
+      20px 240px white,
+      520px 180px white,
+      460px 20px white,
+      240px 260px white,
+      600px 260px white,
+      440px 230px white;
+  }
+
+@keyframes anim-stars {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-150px);
+    }
+}
+
 h1 {
     font-size: 50px;
     text-transform: uppercase;
@@ -217,7 +336,7 @@ a:hover {
 .card {
     width: 300px;
     height: 300px;
-    border-radius: 100%;
+    border-radius: 15%;
     margin: 3rem 0 0 0;
     display: flex;
     align-items: flex-end;
@@ -254,17 +373,17 @@ a:hover {
     
 }
 
-.card-wrapper::before {
+/* .card-wrapper::before {
     content: '';
     position: absolute;
     height: 100px;
     width: 100px;
-    border-radius: 50%;
+    border-radius: 10%;
     display: block;
     border: 1px solid #ffffff;
     opacity: 0;
     transition: 0.5s ease-in-out;
-}
+} */
 
 .card-wrapper h2 {
     font-size: 40px;
@@ -272,6 +391,7 @@ a:hover {
     letter-spacing: 4px;
     margin: 0;
     transition: 0.5s ease-in-out;
+    color: rgb(225, 231, 236);
 }
 
 .card-wrapper p {
@@ -377,14 +497,39 @@ a:hover {
     
     .card {
         
+        animation-duration: 3s;
         margin-top: 52px;
+        animation-name: cardd;
+        
+        animation-iteration-count: infinite;
+       
       }
     
     .card-text {
         left: 60%;
+        
     }
     
     }
+/* Animação */
+
+@keyframes cardd {
+    0% {
+        transform: scale(0.1);
+        opacity: 0;
+    }
+
+    80% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1);
+    }
+
+}
+
 /* Iphone 5 6 7(plus) x xr */
 
 @media (min-width: 376px) and (max-width: 767px) {
