@@ -350,6 +350,8 @@ a:hover {
     color: rgb(109, 109, 109);
     cursor: pointer;
     transition: 0.5s ease-in-out;
+    transform: translateY(0px);
+    animation: float 15s ease-in-out infinite;
 }
 
 .card-text {
@@ -495,13 +497,9 @@ a:hover {
         align-items: center
     }
     
-    .card {
-        
-        animation-duration: 3s;
-        margin-top: 52px;
-        animation-name: cardd;
-        
-        animation-iteration-count: infinite;
+    .card {         
+        margin-top: 52px;  
+            
        
       }
     
@@ -513,19 +511,19 @@ a:hover {
     }
 /* Animação */
 
-@keyframes cardd {
+@keyframes float {
     0% {
-        transform: scale(0.1);
-        opacity: 0;
+        transform: translateY(20px);
+        
     }
 
-    80% {
-        transform: scale(1.2);
-        opacity: 1;
+    50% {
+        transform: translateY(-20px);
+        
     }
 
     100% {
-        transform: scale(1);
+        transform: translateY(20px);
     }
 
 }
