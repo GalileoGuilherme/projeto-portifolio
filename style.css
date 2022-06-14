@@ -173,7 +173,9 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: 2s ease-in-out;
+    transition: 1s ease-in-out;
+    border-radius: 10px;
+    margin-left: 2px;
 }
 
 a:hover {
@@ -360,16 +362,36 @@ a:hover {
     color: rgb(109, 109, 109);
     margin-top: 55px;
     margin-right: -39px;
+    position: relative;
+
+    
+    
 }
 
+/* .card-text::after{
+    content: "";
+    position: absolute;
+    width: 85%;
+    height: 30%;
+    left: 0;
+    border-left: 2px solid #1e1e2a;
+    animation: typing 4.5s steps(10) infinite;
+    background: rgb(255, 251, 251);
+}
+
+@keyframes typing{
+    100%{
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+} */
 .card-wrapper {
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative;
-    
+    position: relative; 
 
 
     
@@ -475,10 +497,12 @@ a:hover {
     .social-media{
         margin-left: 72px;
         padding-top: 13px;
+        
     }
     
     .social-media a {
         padding: 0.5rem 3rem;
+        
     }
     
     .checkbox {
