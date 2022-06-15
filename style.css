@@ -528,13 +528,14 @@ a:hover {
     }
     
     .card {         
-        margin-top: 52px;  
+        margin-top: 52px;
+        margin-left: 34px;  
             
        
       }
     
     .card-text {
-        
+        margin-right: -16px;
         
     }
     ._2XBDTIVigBJDybhZvL-hU3 {
