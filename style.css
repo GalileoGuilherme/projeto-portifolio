@@ -368,7 +368,7 @@ a:hover {
     
 }
 
-/* .card-text::after{
+.card-text::after{
     content: "";
     position: absolute;
     width: 85%;
@@ -380,11 +380,25 @@ a:hover {
 }
 
 @keyframes typing{
+    0%{
+        left: -7%;
+        margin: 0 -35px 0 35px;
+        
+
+    }
+    50%{
+        left: 50%;
+        margin: 0 -35px 0 35px;
+        width: 45%;
+
+    }
+        
     100%{
         left: 100%;
         margin: 0 -35px 0 35px;
+        width: 15%;
     }
-} */
+}
 .card-wrapper {
     text-align: center;
     display: flex;
